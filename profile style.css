@@ -1,0 +1,44 @@
+*{
+ font-family: Arial, Helvetica, sans-serif;   
+}
+
+
+#assignment{
+    border: rgb(218, 93, 93) solid 2px;
+    margin-right: 300px;
+    margin-left: 300px;
+    padding: 45px;
+    width: 1211px;
+    position: relative;
+    right: 350px;
+    top: 100px;
+
+    
+}
+body{
+   background-image: url(555.jpg);
+   background-position: top;
+    
+
+}
+div{
+    border: rgb(0, 0, 0) solid 2px;
+    margin-right: 300px;
+    margin-left: 300px;
+    padding: 45px;
+}
+h2{
+    text-align: center;
+    position: relative;
+    top: 200px;
+}
+h1{
+    text-align: center;
+}
+#web{
+    border: rgb(218, 93, 93) solid 2px;
+    margin-right: 300px;
+    margin-left: 300px;
+    padding: 45px;
+    
+}
