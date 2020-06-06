@@ -1,0 +1,193 @@
+.nav-item::after{
+    content: '';
+    width: 0%;
+    height: 4px;
+    background: #0575E6;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #021B79, #0575E6);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #021B79, #0575E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    position: absolute;
+    bottom: 0%; left: 50%;
+    border-radius: 10px;
+    transition: all 500ms ease;
+}
+.nav-item:hover::after{
+    left: 0%;
+    width: 100%;
+
+}
+
+.dropdown:hover>.dropdown-menu{
+        display: block;
+}
+.nav-icon :hover{
+    cursor: pointer;
+    overflow: hidden;
+}
+.navbar{
+    background-color: rgb(255, 255, 255) !important;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: 0px 0px 10px 0px lightslategray;
+    
+}
+.logo{
+    height: 50px;
+    margin: 0px 0px 15px 15px;
+}
+.fa-user-circle, .fa-shopping-cart{
+    font-size: 30px;
+    color: black;
+}
+
+
+.SERVICES{
+    text-align: center;
+    padding-top: 100px;
+}
+.TAILORING-img{
+    width: 50%;
+}
+.min-tailoring{
+    font-size: 20px;
+    padding-top: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: justify;
+    overflow: hidden;
+}
+/* .inner{
+    overflow: hidden;
+
+}
+.inner img{
+    transition: all 1.5s ease;
+}
+.inner:hover img{
+    transform: scale(1.5);
+} */
+
+.img-para{
+    margin-top: 80px;
+    margin-right: 100px;
+    text-align: center;
+}
+
+/* card css and */
+
+
+
+
+/* .wrapper{
+    width: 1170px;
+    margin: 0 auto;    */
+
+    .figure{
+        width: 32%;
+        float: left;
+        margin: 0;
+    }
+    
+    .shirt-text{
+        text-align: center
+    }
+    .shirt-text h6{
+        text-transform: uppercase;
+        margin: 15px 0;
+    }
+    .shirt-text p{
+        width: 90%;
+        margin: auto;
+        font-size: 18px;
+    }
+    .hover-animation{
+        position: relative;
+        height: 350px;
+        width: 350px;
+        margin: 10% auto 0;
+        color: #fff;
+    }
+    .hover-animation img{
+        position: absolute;
+        height: 350px;
+        width: 350px;
+        left: 0;
+        -webkit-transition: opacity 1s ease-in-out;
+        -moz-transition: opacity 1s ease-in-out;
+        -ms-transition: opacity 1s ease-in-out;
+        -o-transition: opecity 1s ease-in-out;
+        transition: opecity 1s ease-in-out;
+    
+    }
+    .hover-animation img.imag-front:hover{
+        opacity: 0;
+        cursor: pointer;
+    }
+    /* Home Shirt ribin */
+    .shirt-home{
+        margin-top: 50px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        text-align: center;
+        }
+        .shirt-home-h1{
+            font-family: Arial, Helvetica, sans-serif;
+            margin-top: 50px;
+            text-align: center;
+        }   
+.card-button{
+    justify-content: center;
+    background-color: #002f6c;
+} 
+
+/* footer */
+.footer-li{
+    font-size: 20px;
+    color: white;
+    list-style-type: none;
+}
+.min-footer{
+    height: 500px;
+    background-color: #002f6c;
+}
+.first-li,.second-li{
+    margin-top: 50px;
+}
+.footer-heading{
+    text-align: center;
+    color: white;
+    margin-top: 50px;
+}
+.footer-button{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 17px;
+    padding: 10px 10px 10px 10px;
+    color: white;
+    background-color: #f18f20;
+    border: none;
+}
+.foot-icons{
+    margin-top: 50px;
+    color: white;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+
+}
+.Copyright{
+    margin-top: 50px;
+color: white;
+align-items: center;
+text-align: center;
+}
+/* media quiry */
+@media only screen and (max-width: 767px){
+    .min-footer{
+        height: 750px;
+
+}
+}
